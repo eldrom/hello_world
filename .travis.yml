@@ -1,0 +1,10 @@
+language: generic
+sudo: required
+dist: trusty
+
+os: ubuntu
+
+script:
+- cmake -H. -B_builds
+- cmake --build _builds/
+- cmake --build _builds/ --target test
