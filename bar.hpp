@@ -1,0 +1,1 @@
+int Invert( int number );
